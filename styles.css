@@ -6,15 +6,15 @@ font-family: 'Montserrat', sans-serif;*/
   box-sizing: border-box;
 }
 
-body,
-html {
+body{
   min-height: 100vh;
   margin: 0; 
 }
 
 html {
   scroll-behavior: smooth;
-  margin: 0; 
+  min-height: 100vh;
+  margin: 0;  
 }
 
 img {
@@ -28,10 +28,9 @@ h1 {
   font-size: 40px;
 }
 
-h3 {
+h2 {
   font-family: 'Hind Madurai', sans-serif;
   font-weight: light;
-  color: #121212;
 }
 
 p {
@@ -41,17 +40,16 @@ p {
 
 header {
   text-align: center;
-  background-color: black; 
+  background-color: #121212; 
   color: white; 
-  margin: 0;
-  margin-top: 0;  
+  padding: 10px;  
 }
 
 .wrapper {
   margin: 50px;
 }
 
-main h3 {
+main h2 {
   text-align: center;
   margin-top: 50px;
 }

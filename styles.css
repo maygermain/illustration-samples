@@ -19,7 +19,7 @@ html {
 
 img {
   width: 100%; 
-  max-width: 500px;
+  max-width: 300px;
   height: auto; 
 }
 
@@ -70,12 +70,9 @@ footer {
   margin: 50px;
 }
 
-.rightaligned {
-  text-align: right;
-}
-
 a {
   color: darkgrey;
+  text-align: right;
 }
 
 a:hover {
